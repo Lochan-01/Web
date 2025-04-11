@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PLACIFY - Login Portal</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('PLACE.JPG') no-repeat fixed;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+    }
+
+    .heading {
+      margin-top: 50px;
+      font-size: 6em;
+      color: gold;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .container {
+      margin-top: 200px;
+      text-align: center;
+      background: rgba(45, 36, 36, 0.6);
+      padding: 50px 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    }
+
+    .container h1 {
+      margin-bottom: 30px;
+      font-size: 2em;
+    }
+
+    .login-option {
+      margin: 10px;
+      padding: 15px 40px;
+      font-size: 18px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      background: white;
+      color: #080809;
+      transition: all 0.3s ease;
+    }
+
+    .login-option:hover {
+      background: #010101;
+      color: rgb(236, 244, 81);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="heading">PLACIFY</div>
+  <h3>PLACEMENT ERA</h3>
+
+  <div class="container">
+    <h1>Choose Your Login</h1>
+    <button class="login-option" onclick="location.href='student-login.html'">Student</button>
+    <button class="login-option" onclick="location.href='college-login.html'">College</button>
+    <button class="login-option" onclick="location.href='company-login.html'">Company</button>
+  </div>
+
+</body>
+</html>
